@@ -10,4 +10,3 @@ class Penguin:
 
 penguin = Penguin("Pingu", "Aptenodytes forsteri")
 penguin.swimming = True
-print(penguin)

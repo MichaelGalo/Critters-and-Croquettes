@@ -10,4 +10,3 @@ class Octopus:
 
 octopus = Octopus("Otto", "Octopus vulgaris")
 octopus.swimming = True
-print(octopus)

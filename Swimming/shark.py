@@ -10,4 +10,3 @@ class Shark:
 
 shark = Shark("Jaws", "Carcharodon carcharias")
 shark.swimming = True
-print(shark)

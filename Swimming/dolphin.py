@@ -10,4 +10,3 @@ class Dolphin:
 
 dolphin = Dolphin("Flipper", "Delphinus delphis")
 dolphin.swimming = True
-print(dolphin)

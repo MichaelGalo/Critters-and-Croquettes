@@ -10,4 +10,3 @@ class Whale:
 
 whale = Whale("Willy", "Balaenoptera musculus")
 whale.swimming = True
-print(whale)
