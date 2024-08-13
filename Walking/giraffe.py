@@ -2,12 +2,17 @@ from datetime import date
 
 
 class Giraffe:
-    def __init__(self, name, species, shift) -> None:
+    def __init__(self, name, species, shift, food) -> None:
         self.date_added = date.today()
         self.name = name
         self.species = species
         self.shift = shift
+        self.food = food
+
+    def feed(self):
+        print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
 
 
-giraffe = Giraffe("Geoffrey", "Giraffa camelopardalis", "Midday")
+giraffe = Giraffe("Geoffrey", "Giraffa camelopardalis", "Midday", "Dry Leaves")
 giraffe.walking = True
+giraffe.feed()
