@@ -12,6 +12,10 @@ class Kangaroo:
     def feed(self):
         print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
 
+    def __str__(self):
+        return f"{self.name} is a {self.species}"
+
 
 kangaroo = Kangaroo("Kanga", "Macropus", "Evening", "Shrimp-on-the-Barbie")
 kangaroo.walking = True
+print(kangaroo)
