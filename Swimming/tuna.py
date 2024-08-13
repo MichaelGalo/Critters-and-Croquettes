@@ -10,4 +10,3 @@ class Tuna:
 
 tuna = Tuna("Gilly", "Blue Fin")
 tuna.swimming = True
-print(tuna)

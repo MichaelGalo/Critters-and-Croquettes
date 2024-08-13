@@ -10,4 +10,3 @@ class Rattlesnake:
 
 snek = Rattlesnake("Sneaky Snek", "Pigmy")
 snek.slithering = True
-print(snek)
